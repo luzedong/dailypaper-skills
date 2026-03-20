@@ -104,6 +104,8 @@ mkdir -p "$VAULT/DailyPapers" \
 
 `批量读一下 Zotero 里 XXX 分类下的论文` 不需要额外的映射文件；只要 `paths.zotero_db` 和 `paths.zotero_storage` 配对，脚本会直接从你的 Zotero 分类树里查。
 
+论文点评的「方向/人设/过滤规则/分流表/模板示例」也需要根据你的需求调整，文件是`~/.claude/skills/daily-papers-review/SKILL.md`。
+
 ## 🦮 默认行为
 
 默认 Obsidian 库管理不会自动commit、push：
